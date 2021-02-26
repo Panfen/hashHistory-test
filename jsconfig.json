@@ -1,0 +1,10 @@
+//tsconfig.json 或者 jsconfig.json 文件
+{
+   "compilerOptions": {
+       "baseUrl": "./",
+       "experimentalDecorators":true,
+       "paths": {
+           "src/*": ["src/*"],
+           "@/*": ["src/*"],
+       }
+}

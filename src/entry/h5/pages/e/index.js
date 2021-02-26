@@ -1,0 +1,17 @@
+import React, { Component } from "react";
+import { Button } from "antd-mobile";
+import { hashHistory } from "react-router";
+
+export default class D extends Component {
+  
+  componentDidMount() {
+    document.title = '订单列表';
+    console.log('订单列表')
+  }
+
+  render() {
+    return <div className="container-wrap">
+    	订单列表页
+    </div>
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "h5apps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "ai dev h5 --rem",
+    "build": "ai build h5 --rem"
+  },
+  "dependencies": {
+    "@aistarfish/event-web": "0.0.6",
+    "@aistarfish/lib": "0.0.7",
+    "@aistarfish/utils": "^0.1.20",
+    "@babel/runtime": "^7.9.2",
+    "@material-ui/core": "^3.8.2",
+    "alloyfinger": "^0.1.16",
+    "antd-mobile": "^2.3.1",
+    "md5": "^2.3.0",
+    "mobx": "^3.2.2",
+    "mobx-react": "^4.2.2",
+    "rc-calendar": "^9.10.10",
+    "rc-form": "^2.4.9",
+    "react": "16.8.0",
+    "react-app-polyfill": "^0.2.0",
+    "react-dev-utils": "^7.0.0",
+    "react-dom": "16.8.0",
+    "react-loadable": "^5.5.0",
+    "react-router": "^3.2.1",
+    "react-viewer": "3.1.0",
+    "sha1": "^1.1.1",
+    "webpack": "^4.39.2",
+    "webpack-parallel-uglify-plugin": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.0",
+    "css-loader": "^3.2.0",
+    "eslint": "5.6.0",
+    "eslint-config-react-app": "^3.0.6",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.11.1",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": {
+    "/*": {
+      "target": "http://elpis.aistarfish.net",
+      "changeOrigin": true,
+      "secure": false
+    }
+  }
+}
